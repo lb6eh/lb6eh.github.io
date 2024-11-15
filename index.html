@@ -47,7 +47,18 @@
             <line fill="none" id="svg_2" stroke="#fff" stroke-width="2" x1="157.21" x2="157.21" y1="160.78" y2="340.67"/>
             <line fill="none" id="svg_3" stroke="#fff" stroke-width="2" x1="468.1" x2="468.1" y1="163.02" y2="342.91"/>
             <path fill="none" id="svg_10" stroke="#fff" stroke-width="2"/>
-            <path d="m467.52,164.15c-169.67,68.11 -310.31,-4.15 -310.54,-4.62" fill="none" id="svg_11" stroke="#fff"/>
+            <!-- <path d="m467.52,164.15c-169.67,68.11 -310.31,-4.15 -310.54,-4.62" fill="none" id="svg_11" stroke="#fff"/> -->
+            <path d="m467.52,164.15c-169.67,68.11 -310.31,-4.15 -310.54,-4.62" fill="none" id="svg_11" stroke="#fff">
+                <animate 
+                    attributeName="d" 
+                    values="
+                        m467.52,164.15c-169.67,68.11 -310.31,-4.15 -310.54,-4.62;
+                        m467.52,164.15c-159.7,27.27 -310.31,-4.15 -310.54,-4.62;
+                        m467.52,164.15c-169.67,68.11 -310.31,-4.15 -310.54,-4.62" 
+                    dur="5s" 
+                    repeatCount="indefinite"
+                />
+            </path>
             <path d="m507.33,394.62c-60.71,-133.36 -315.9,-147.19 -393.61,1.38" fill="none" id="svg_12" stroke="#fff" stroke-width="3"/>
             <line fill="none" id="svg_13" stroke="#bbb" x1="157.12" x2="189.17" y1="283.14" y2="318.08"/>
             <line fill="none" id="svg_14" stroke="#bbb" x1="156.47" x2="126.67" y1="283.78" y2="374.17"/>
@@ -64,7 +75,7 @@
 
     </div>
     <div class="footer">
-        <p>&copy; 2023 LB6EH Ham Radio. All rights reserved.</p>
+        <p>Open source and available on <a href="https://github.com/your-repo-url" target="_blank">GitHub</a> under the MIT License.</p>
     </div>
     <script>
         const modeSwitch = document.getElementById('modeSwitch');
